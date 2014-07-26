@@ -1,0 +1,81 @@
+Codebook/ Data Dictionary
+=========================
+
+SubjectIdentifier
+    ID of a Subject from whom measurements were taken.
+      
+      1 - 30  Units: ID
+
+ActivityLabel
+    Activity performed by the subject.
+
+      LAYING
+      SITTING
+      STANDING
+      WALKING
+      WALKING_DOWNSTAIRS
+      WALKING_UPSTAIRS
+
+timeDomain.BodyAcceleration.X.Mean
+    Average of the mean time domain values of body acceleration on the X axis corresponding to that subject and activity.
+
+    0.22 - 0.3  Units: m/s^2
+
+timeDomain.BodyAcceleration.Y.Mean
+    Average of the mean time domain values of body acceleration on the Y axis corresponding to that subject and activity.
+
+    -0.04 - -0.0013  Units: m/s^2
+
+timeDomain.BodyAcceleration.Z.Mean
+    Average of the mean time domain values of body acceleration on the Z axis corresponding to that subject and activity.
+
+    -0.15 - -0.07  Units: m/s^2 
+
+timeDomain.GravityAcceleration.X.Mean
+  Average of the mean time domain values of acceleration due to gravity on the X axis corresponding to that subject and activity.
+
+    -0.68 - 0.97  Units: m/s^2
+
+timeDomain.GravityAcceleration.Y.Mean
+  Average of the mean time domain values of acceleration due to gravity on the Y axis corresponding to that subject and activity.
+
+    -0.47 - 0.95  Units: m/s^2
+
+timeDomain.GravityAcceleration.Z.Mean
+  Average of the mean time domain values of acceleration due to gravity on the Z axis corresponding to that subject and activity.
+
+    -0.49 - 0.95  Units: m/s^2
+
+timeDomain.BodyAcceleration.LinearAcceleration.Jerk.X.Mean
+  Average of the mean time domain values of Jerk signals derived from body linear acceleration on the X axis corresponding to that subject and activity.
+
+    0.04 - 0.13  Units: m/s^3
+
+timeDomain.BodyAcceleration.LinearAcceleration.Jerk.Y.Mean
+  Average of the mean time domain values of Jerk signals derived from body linear acceleration on the Y axis corresponding to that subject and activity.
+
+    -0.03 - 0.05  Units: m/s^3
+
+timeDomain.BodyAcceleration.LinearAcceleration.Jerk.Z.Mean
+  Average of the mean time domain values of Jerk signals derived from body linear acceleration on the Z axis corresponding to that subject and activity.
+
+    -0.06 - 0.03  Units: m/s^3
+
+timeDomain.BodyAcceleration.Gyroscope.X.Mean
+  Average of the mean time domain values of the gyroscope signal on the X axis corresponding to that subject and activity.
+
+    -0.2 - 0.19  Units: radian/second
+
+timeDomain.BodyAcceleration.Gyroscope.Y.Mean
+  Average of the mean time domain values of the gyroscope signal on the Y axis corresponding to that subject and activity.
+
+    -0.2 - 0.19  Units: radian/second
+
+timeDomain.BodyAcceleration.Gyroscope.Z.Mean
+  Average of the mean time domain values of the gyroscope signal on the Z axis corresponding to that subject and activity.
+
+    -0.2 - 0.19  Units: radian/second
+
+
+
+
