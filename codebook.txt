@@ -69,13 +69,114 @@ timeDomain.BodyAcceleration.Gyroscope.X.Mean
 timeDomain.BodyAcceleration.Gyroscope.Y.Mean
   Average of the mean time domain values of the gyroscope signal on the Y axis corresponding to that subject and activity.
 
-    -0.2 - 0.19  Units: radian/second
+    -0.2 - 0.2  Units: radian/second
 
 timeDomain.BodyAcceleration.Gyroscope.Z.Mean
   Average of the mean time domain values of the gyroscope signal on the Z axis corresponding to that subject and activity.
 
-    -0.2 - 0.19  Units: radian/second
+    -0.07 - 0.17  Units: radian/second
 
+timeDomain.BodyAcceleration.Gyroscope.Jerk.X.Mean
+  Average of the mean time domain values of Jerk signals derived from the angular velocity gyroscope signals on the X axis corresponding to that subject and activity.
 
+    -0.15 - -0.02  Units: radian/second^2
 
+timeDomain.BodyAcceleration.Gyroscope.Jerk.Y.Mean
+  Average of the mean time domain values of Jerk signals derived from the angular velocity gyroscope signals on the Y axis corresponding to that subject and activity.
 
+    -0.07 - -0.01  Units: radian/second^2
+
+timeDomain.BodyAcceleration.Gyroscope.Jerk.Z.Mean
+  Average of the mean time domain values of Jerk signals derived from the angular velocity gyroscope signals on the Z axis corresponding to that subject and activity.
+
+    -0.09 - -0.006  Units: radian/second^2
+
+timeDomain.BodyAcceleration.Magnitude.Mean
+  Average of the magnitude of timeDomain.BodyAcceleration along the 3 axes corresponding to that subject and activity.
+
+    -0.98 - 0.64  Units: m/s^2
+
+timeDomain.GravityAcceleration.Magnitude.Mean
+  Average of the magnitude of timeDomain.GravityAcceleration along the 3 axes corresponding to that subject and activity.
+
+    -0.98 - 0.64  Units: m/s^2
+
+timeDomain.BodyAcceleration.LinearAcceleration.Jerk.Magnitude.Mean
+  Average of the magnitude of timeDomain.BodyAcceleration.LinearAcceleration.Jerk along the 3 axes corresponding to that subject and activity.
+
+    -0.99 - 0.43  Units: m/s^3
+
+timeDomain.BodyAcceleration.Gyroscope.Magnitude.Mean
+  Average of the magnitude of timeDomain.BodyAcceleration.Gyroscope along the 3 axes corresponding to that subject and activity.
+
+    -0.98 - 0.41  Units: radian/second
+
+timeDomain.BodyAcceleration.Gyroscope.Jerk.Magnitude.Mean
+  Average of the magnitude of timeDomain.BodyAcceleration.Gyroscope.Jerk along the 3 axes corresponding to that subject and activity.
+
+    -0.99 - 0.08  Units: m/s^2
+
+freqDomain.BodyAcceleration.X.Mean
+  Average of the mean frequency domain values of body acceleration on the X axis corresponding to that subject and activity.
+
+    -0.99 - 0.53  Units: m/s^2
+
+freqDomain.BodyAcceleration.Y.Mean
+  Average of the mean frequency domain values of body acceleration on the Y axis corresponding to that subject and activity.
+
+    -0.98 - 0.52  Units: m/s^2
+
+freqDomain.BodyAcceleration.Z.Mean
+  Average of the mean frequency domain values of body acceleration on the Z axis corresponding to that subject and activity.
+
+    -0.98 - 0.28  Units: m/s^2
+
+freqDomain.BodyAcceleration.LinearAcceleration.Jerk.X.Mean
+  Average of the mean frequency domain values of Jerk signals derived from body linear acceleration on the X axis corresponding to that subject and activity.
+
+    -0.99 - 0.47  Units: m/s^3
+
+freqDomain.BodyAcceleration.LinearAcceleration.Jerk.Y.Mean
+  Average of the mean frequency domain values of Jerk signals derived from body linear acceleration on the Y axis corresponding to that subject and activity.
+
+    -0.98 - 0.27  Units: m/s^3
+
+freqDomain.BodyAcceleration.LinearAcceleration.Jerk.Z.Mean
+  Average of the mean frequency domain values of Jerk signals derived from body linear acceleration on the Z axis corresponding to that subject and activity.
+
+    -0.99 - 0.15  Units: m/s^3
+
+freqDomain.BodyAcceleration.Gyroscope.X.Mean
+  Average of the mean frequency domain values of the gyroscope signal on the X axis corresponding to that subject and activity.
+
+    -0.99 - 0.47  Units: radian/second
+
+freqDomain.BodyAcceleration.Gyroscope.Y.Mean
+  Average of the mean frequency domain values of the gyroscope signal on the Y axis corresponding to that subject and activity.
+
+    -0.99 - 0.32  Units: radian/second
+
+freqDomain.BodyAcceleration.Gyroscope.Z.Mean
+  Average of the mean frequency domain values of the gyroscope signal on the Z axis corresponding to that subject and activity.
+
+    -0.98 - 0.49  Units: radian/second
+
+freqDomain.BodyAcceleration.Magnitude.Mean
+  Average of the magnitude of freqDomain.BodyAcceleration along the 3 axes corresponding to that subject and activity.
+
+    -0.98 - 0.58  Units: m/s^2
+
+freqDomain.BodyAcceleration.LinearAcceleration.Jerk.Magnitude.Mean
+  Average of the magnitude of freqDomain.BodyAcceleration.LinearAcceleration.Jerk along the 3 axes corresponding to that subject and activity.
+
+    -0.99 - 0.53  Units: m/s^3
+
+freqDomain.BodyAcceleration.Gyroscope.Magnitude.Mean
+  Average of the magnitude of freqDomain.BodyAcceleration.Gyroscope along the 3 axes corresponding to that subject and activity.
+
+    -0.98 - 0.2  Units: radian/second
+
+freqDomain.BodyAcceleration.Gyroscope.Jerk.Magnitude.Mean
+  Average of the magnitude of freqDomain.BodyAcceleration.Gyroscope.Jerk along the 3 axes corresponding to that subject and activity.
+
+    -0.99 - 0.14  Units: radian/second^2
